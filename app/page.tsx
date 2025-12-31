@@ -19,7 +19,8 @@ const services = [
   },
   {
     title: "Postproducción creativa",
-    description: "Color grading, motion graphics y sonido para entregar piezas listas para publicar en todos los canales.",
+    description:
+      "Color grading, motion graphics y sonido para entregar piezas listas para publicar en todos los canales.",
   },
 ]
 
@@ -42,7 +43,7 @@ export default function Web() {
         <div className="acmedia-pan absolute inset-0 bg-[linear-gradient(120deg,rgba(255,255,255,0.95),rgba(237,242,255,0.9),rgba(255,255,255,0.95))]" />
         <div className="relative mx-auto grid max-w-(--breakpoint-xl) gap-12 px-6 py-20 lg:grid-cols-[1.2fr_1fr] lg:items-center">
           <div className="space-y-6">
-            <span className="inline-flex items-center gap-2 rounded-full border border-slate-200/80 bg-white/80 px-4 py-2 text-xs uppercase tracking-[0.4em] text-slate-600 shadow-sm">
+            <span className="inline-flex items-center gap-2 rounded-full border border-slate-200/80 bg-white/80 px-4 py-2 text-xs tracking-[0.4em] text-slate-600 uppercase shadow-sm">
               ACMedia Studio
               <span className="h-2 w-2 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.6)]" />
             </span>
@@ -50,8 +51,8 @@ export default function Web() {
               Fotografía y video con estética cinematográfica para marcas memorables.
             </h1>
             <p className="max-w-xl text-lg text-slate-600">
-              Somos un estudio creativo enfocado en capturar energía real: desde campañas lifestyle hasta documentales de
-              marca. Creamos imágenes que se sienten vivas.
+              Somos un estudio creativo enfocado en capturar energía real: desde campañas lifestyle hasta documentales
+              de marca. Creamos imágenes que se sienten vivas.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button href="#portafolio">Ver portafolio</Button>
@@ -71,7 +72,7 @@ export default function Web() {
           <div className="relative">
             <div className="acmedia-glow absolute -inset-6 rounded-[32px] bg-[radial-gradient(circle,_rgba(129,164,255,0.35),_transparent_65%)] blur-2xl" />
             <div className="relative grid gap-6 rounded-[32px] border border-white/70 bg-white/80 p-6 shadow-[0_30px_60px_rgba(148,163,184,0.35)]">
-              <div className="flex items-center justify-between text-xs uppercase tracking-[0.4em] text-slate-500">
+              <div className="flex items-center justify-between text-xs tracking-[0.4em] text-slate-500 uppercase">
                 <span>Behind the lens</span>
                 <span>2025</span>
               </div>
@@ -103,11 +104,11 @@ export default function Web() {
       <section id="servicios" className="bg-white py-16">
         <div className="mx-auto grid max-w-(--breakpoint-xl) gap-10 px-6 lg:grid-cols-[1fr_1.2fr] lg:items-start">
           <div className="space-y-4">
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-400">Servicios</p>
+            <p className="text-sm tracking-[0.3em] text-slate-400 uppercase">Servicios</p>
             <h2 className="text-3xl font-semibold md:text-4xl">Diseñamos experiencias visuales de punta a punta.</h2>
             <p className="text-slate-600">
-              Desde la preproducción hasta la entrega final, cada etapa está pensada para que tu marca tenga una presencia
-              poderosa y coherente en todos los canales.
+              Desde la preproducción hasta la entrega final, cada etapa está pensada para que tu marca tenga una
+              presencia poderosa y coherente en todos los canales.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
@@ -131,7 +132,7 @@ export default function Web() {
         <div className="mx-auto max-w-(--breakpoint-xl) px-6">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-400">Portafolio</p>
+              <p className="text-sm tracking-[0.3em] text-slate-400 uppercase">Portafolio</p>
               <h2 className="text-3xl font-semibold md:text-4xl">Campañas que se sienten en movimiento.</h2>
             </div>
             <Button intent="secondary" href="#contacto">
@@ -146,7 +147,7 @@ export default function Web() {
               >
                 <div className="absolute inset-0 bg-[linear-gradient(140deg,rgba(148,163,184,0.18),transparent)]" />
                 <div className="relative space-y-6">
-                  <div className="flex items-center justify-between text-xs uppercase tracking-[0.35em] text-slate-500">
+                  <div className="flex items-center justify-between text-xs tracking-[0.35em] text-slate-500 uppercase">
                     <span>{item.tag}</span>
                     <span>{item.year}</span>
                   </div>
@@ -173,8 +174,10 @@ export default function Web() {
         <div className="mx-auto max-w-(--breakpoint-xl) px-6">
           <div className="grid gap-10 rounded-[32px] border border-slate-200 bg-white p-8 shadow-sm lg:grid-cols-[1.2fr_1fr]">
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-400">Metodología</p>
-              <h2 className="mt-3 text-3xl font-semibold md:text-4xl">Una producción fluida, pensada para equipos ágiles.</h2>
+              <p className="text-sm tracking-[0.3em] text-slate-400 uppercase">Metodología</p>
+              <h2 className="mt-3 text-3xl font-semibold md:text-4xl">
+                Una producción fluida, pensada para equipos ágiles.
+              </h2>
               <p className="mt-4 text-slate-600">
                 Organizamos cada rodaje con tableros, hojas de llamado y entregables claros. Trabajamos con tu equipo
                 interno para que la narrativa se traduzca en assets listos para lanzar.
@@ -198,9 +201,9 @@ export default function Web() {
       <section id="contacto" className="py-16">
         <div className="mx-auto max-w-(--breakpoint-xl) px-6">
           <div className="relative overflow-hidden rounded-[32px] border border-slate-200 bg-[linear-gradient(120deg,rgba(210,224,255,0.75),rgba(255,255,255,0.95))] p-10 shadow-sm">
-            <div className="absolute -right-20 -top-20 h-48 w-48 rounded-full bg-[radial-gradient(circle,_rgba(148,163,184,0.35),_transparent_60%)] blur-2xl" />
+            <div className="absolute -top-20 -right-20 h-48 w-48 rounded-full bg-[radial-gradient(circle,_rgba(148,163,184,0.35),_transparent_60%)] blur-2xl" />
             <div className="relative space-y-6">
-              <p className="text-sm uppercase tracking-[0.3em] text-slate-500">ACMedia</p>
+              <p className="text-sm tracking-[0.3em] text-slate-500 uppercase">ACMedia</p>
               <h2 className="text-3xl font-semibold md:text-4xl">Hagamos que tu marca se vea y se sienta diferente.</h2>
               <p className="max-w-2xl text-slate-600">
                 Agenda una sesión estratégica y recibe un plan visual con referencias creativas, tiempos y entregables.
